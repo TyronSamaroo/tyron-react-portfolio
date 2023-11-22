@@ -1,0 +1,38 @@
+/* Add this to your existing styles */
+.header-content h1, .header-content p, .profile-image {
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header-content h1:hover, .header-content p:hover, .profile-image:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+}
+
+/* For the text color change on hover, you can add something like this: */
+.header-content h1:hover {
+  color: #e0e0e0; /* Or any other color you prefer */
+}
+
+.header-content p:hover {
+  color: #cccccc; /* Or any other color you prefer */
+}
+
+.profile-image {
+  width: 150px; /* Adjust this value to make the image smaller */
+  height: 150px; /* Set a fixed height to maintain aspect ratio */
+  border-radius: 50%; /* Keeps the image round */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border: 3px solid white; /* Optional: adds a white border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.profile-image:hover {
+  transform: scale(2); /* Optional: slight increase in size on hover */
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 100px; /* Smaller size on mobile */
+    height: 100px; /* Maintain aspect ratio */
+  }
+}

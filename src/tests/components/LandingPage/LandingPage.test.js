@@ -1,8 +1,6 @@
-// FILEPATH: /tests/LandingPage.test.js
-
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import LandingPage from '../LandingPage';
+import LandingPage from '../../../components/LandingPage/LandingPage';
 
 describe('LandingPage', () => {
   test('renders LandingPage component', () => {

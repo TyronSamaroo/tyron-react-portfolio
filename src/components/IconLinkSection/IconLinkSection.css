@@ -1,0 +1,29 @@
+.icon {
+  font-size: 4rem; /* Icon size */
+  margin-bottom: 1rem;
+  transition: transform 0.3s; /* Animation transition */
+  color: #ffffff;
+}
+
+.icon-link-grid {
+    display: flex; /* This will put the icons on the same row */
+    flex-wrap: wrap; /* This will move icons to the next row if there isn't enough space */
+    justify-content: center; /* This will center the icons */
+    gap: 1rem; /* This will add some space between the icons */
+  }
+
+.icon:hover {
+  color: #0000ff; /* Change this to blue on hover */
+  transform: scale(1.5); /* Scale up icon on hover */
+}
+
+.icon.DiPython { color: #0682e7; }
+.icon.DiJavascript1 { color: #F0DB4F; }
+.icon.DiReact { color: #61DBFB; }
+.icon.DiJava { color: #f89820; }
+.icon.DiAws { color: #FF9900; }
+
+.icon-link-icon {
+  font-size: 6rem; /* Adjust this value to change the icon size */
+  color: inherit; /* Inherit color from parent */
+}

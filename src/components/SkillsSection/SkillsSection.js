@@ -3,8 +3,7 @@ import { DiPython, DiJavascript1, DiReact, DiJava, DiAws } from 'react-icons/di'
 import { motion } from 'framer-motion';
 import './SkillsSection.css';
 
-function SkillsSection() {
-  return (
+const SkillsSection = () => (
     <div className="skills-container">
       <h2>Technical Skills</h2>
       <div className="skills-grid">
@@ -41,6 +40,4 @@ function SkillsSection() {
       </div>
     </div>
   );
-}
-
 export default SkillsSection;

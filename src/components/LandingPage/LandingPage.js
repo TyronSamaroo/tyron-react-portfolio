@@ -19,7 +19,7 @@ function LandingPage() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        <img src="/tyron.jpeg" alt="Tyron Samaroo" className="profile-image" />
+        <img src={process.env.PUBLIC_URL + '/tyron.jpeg'} alt="Tyron Samaroo" className="profile-image" />
       </motion.div>
     </div>
   );

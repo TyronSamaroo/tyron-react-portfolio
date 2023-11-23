@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiGithub, DiApple, DiPython} from 'react-icons/di'
+import { FaLinkedin, FaGithubAlt} from 'react-icons/fa'
 import './ConnectionSection.css';
 import IconLinkSection from '../IconLinkSection/IconLinkSection';
 
 const ConnectionSection = () => {
   const skills = [
-    { icon: DiGithub, label:'Github', url: 'https://www.python.org/' },
-    { icon: DiPython, label:'Linkedin', url: 'https://www.python.org/' },
+    { icon: FaGithubAlt, label:'Github', url: 'https://github.com/TyronSamaroo' },
+    { icon: FaLinkedin, label:'Linkedin', url: 'hhttps://www.linkedin.com/in/tyronsamaroo/' },
   ]
 
   return <IconLinkSection title="Connection Section" items={skills}/>;

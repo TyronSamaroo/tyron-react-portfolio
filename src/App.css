@@ -1,9 +1,0 @@
-.App {
-  text-align: center;
-  background-color: #1a1a1a; /* Dark theme background */
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Add this line */
-}

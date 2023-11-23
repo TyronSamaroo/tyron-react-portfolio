@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tyron-react-portfolio/static/css/main.d72e0166.css",
+    "main.js": "/tyron-react-portfolio/static/js/main.b4acd2b3.js",
+    "static/js/787.fca35284.chunk.js": "/tyron-react-portfolio/static/js/787.fca35284.chunk.js",
+    "index.html": "/tyron-react-portfolio/index.html",
+    "main.d72e0166.css.map": "/tyron-react-portfolio/static/css/main.d72e0166.css.map",
+    "main.b4acd2b3.js.map": "/tyron-react-portfolio/static/js/main.b4acd2b3.js.map",
+    "787.fca35284.chunk.js.map": "/tyron-react-portfolio/static/js/787.fca35284.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d72e0166.css",
+    "static/js/main.b4acd2b3.js"
+  ]
+}

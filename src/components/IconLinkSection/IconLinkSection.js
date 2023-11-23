@@ -1,5 +1,4 @@
 import React from 'react';
-import { DiGithub, DiLinkedin, DiPython} from 'react-icons/di';
 import { motion } from 'framer-motion';
 import './IconLinkSection.css';
 
